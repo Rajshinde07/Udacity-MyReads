@@ -31,6 +31,15 @@ export default class Search extends Component {
   };
 
   render() {
+    //Added Here It Works But Not Sure Where to add it
+    this.state.books.forEach((book) => {
+      this.props.Books.forEach((myBook) => {
+        if (myBook.id === book.id) {
+          book.shelf = myBook.shelf;
+        }
+      });
+    });
+
     return (
       <div className="search-books">
         <div className="search-books-bar">
