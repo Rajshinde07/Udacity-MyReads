@@ -1,16 +1,18 @@
-# Cloning And Installing Dependencies
+#MyReads
+
+## Cloning And Installing Dependencies
 
 ```
     git clone https://github.com/Rajshinde07/Udacity-MyReads.git
     npm install
 ```
 
-# Running Project
+## Running Project
 
 ```
     npm start
 ```
 
-# About Project
+## About Project
 
 - It Lets You Find the books through an BooksAPI and You can categorize them according to your choice
